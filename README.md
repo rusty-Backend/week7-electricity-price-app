@@ -26,7 +26,7 @@ And it had prices of last three days (including current day). I filtered only th
 ## Structure
 ```
 App.tsx                           — root component, renders all sections
-colors.ts                         — Catppuccin Mocha color palette
+colors.ts                         — color palette
 hooks/
   useElectricityPrice.ts          — fetches and filters today's prices
 components/
