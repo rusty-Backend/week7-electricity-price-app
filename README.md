@@ -24,7 +24,7 @@ And it had prices of last three days (including current day). I filtered only th
 7. Last but not least the "Sauna Time". I wanted to display optimal sauna time of the day by finding the smallest average price of three (3) consecutive hours. I ended up using nested for loop which checks 12 x 15min slots and checks the average price of those price points.
 
 ## Structure
-
+```
 App.tsx                           — root component, renders all sections
 colors.ts                         — Catppuccin Mocha color palette
 hooks/
@@ -32,7 +32,7 @@ hooks/
 components/
   PriceChart.tsx                  — hourly line chart
   SaunaTimer.tsx                  — optimal 3-hour sauna window
-
+```
 ## Summary
 
 This was a very fun task, since we got to be creative and I have had actual applications in mind for this kind of app, so I got to somewhat test out in advance how this is working.
